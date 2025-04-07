@@ -34,8 +34,8 @@ def dbmcalc():
 def choice():
     
     choose = int(input("""   
-[1]DBM to WATTS
-[2]WATTS to DBM 
+[1]WATTS to DBM
+[2]DBM to WATTS
     
     """))
 
