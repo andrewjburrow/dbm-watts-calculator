@@ -17,7 +17,7 @@ def convert():
             result = watts_to_dbm(value)
             output_label.config(text=f"{result:.2f} dBm")
     except:
-        output_label.config(text="Invalid input 💀")
+        output_label.config(text="Invalid input")
 
 def main():
     global entry, output_label, mode
